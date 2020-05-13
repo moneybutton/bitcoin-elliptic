@@ -25,6 +25,12 @@
     "Cryptography"
   ],
   "author": "Fedor Indutny <fedor@indutny.com>",
+  "contributors": [
+    {
+      "name": "Ryan X. Charles",
+      "email": "ryanxcharles@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"

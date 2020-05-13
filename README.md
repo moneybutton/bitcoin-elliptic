@@ -1,8 +1,9 @@
-# Elliptic [![Build Status](https://secure.travis-ci.org/indutny/elliptic.png)](http://travis-ci.org/indutny/elliptic) [![Coverage Status](https://coveralls.io/repos/indutny/elliptic/badge.svg?branch=master&service=github)](https://coveralls.io/github/indutny/elliptic?branch=master) [![Code Climate](https://codeclimate.com/github/indutny/elliptic/badges/gpa.svg)](https://codeclimate.com/github/indutny/elliptic)
-
-[![Saucelabs Test Status](https://saucelabs.com/browser-matrix/gh-indutny-elliptic.svg)](https://saucelabs.com/u/gh-indutny-elliptic)
+# bitcoin-elliptic
 
 Fast elliptic-curve cryptography in a plain javascript implementation.
+
+This project is a fork of [elliptic](https://github.com/indutny/elliptic) but
+with all curves unrelated to Bitcoin removed to decrease file size in a browser.
 
 NOTE: Please take a look at http://safecurves.cr.yp.to/ before choosing a curve
 for your cryptography operations.
@@ -174,22 +175,10 @@ NOTE: `.derive()` returns a [BN][1] instance.
 Elliptic.js support following curve types:
 
 * Short Weierstrass
-* Montgomery
-* Edwards
-* Twisted Edwards
 
 Following curve 'presets' are embedded into the library:
 
 * `secp256k1`
-* `p192`
-* `p224`
-* `p256`
-* `p384`
-* `p521`
-* `curve25519`
-* `ed25519`
-
-NOTE: That `curve25519` could not be used for ECDSA, use `ed25519` instead.
 
 ### Implementation details
 

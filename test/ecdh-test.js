@@ -21,7 +21,5 @@ describe('ECDH', function() {
     });
   }
 
-  test('curve25519');
-  test('ed25519');
   test('secp256k1');
 });
