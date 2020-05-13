@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-elliptic",
-  "version": "6.5.2",
+  "version": "7.0.0",
   "description": "EC cryptography",
   "main": "lib/elliptic.js",
   "files": [
