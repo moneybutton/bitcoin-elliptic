@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-elliptic",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "EC cryptography",
   "main": "lib/elliptic.js",
   "files": [
@@ -42,10 +42,10 @@
     "grunt": "^1.0.4",
     "grunt-browserify": "^5.0.0",
     "grunt-cli": "^1.2.0",
-    "grunt-contrib-connect": "^1.0.0",
+    "grunt-contrib-connect": "^2.1.0",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-uglify": "^1.0.1",
-    "grunt-mocha-istanbul": "^3.0.1",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-mocha-istanbul": "^5.0.2",
     "grunt-saucelabs": "^9.0.1",
     "istanbul": "^0.4.2",
     "jscs": "^3.0.7",
